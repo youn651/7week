@@ -1,0 +1,206 @@
+@-webkit-keyframes flowers {
+
+	0% {margin-bottom: 10px;
+		 }
+
+
+	50% {margin-bottom: 40px}
+
+	100% {margin-bottom: 10px}
+
+}
+
+@-webkit-keyframes flowerss {
+
+	0% {margin-top: 10px;
+		 }
+
+
+	50% {margin-top: 40px}
+
+	100% {margin-top: 10px}
+
+}
+
+
+@-webkit-keyframes title {
+
+	0% {opacity: 0%;}
+
+
+	100% {opacity: 100%;}
+
+}
+
+@-webkit-keyframes title2 {
+
+	0% {opacity: 0%;}
+
+
+	25% {opacity: 100%;}
+
+
+	50% {opacity: 100%;}
+
+	75% {opacity: 100%;}
+
+	100% {opacity: 0%;}
+
+}
+
+@-webkit-keyframes tyler {
+
+	0% {opacity: 0%;}
+
+
+	100% {opacity: 100%;}
+
+}
+
+@-webkit-keyframes pix {
+
+	0% {opacity: 0%;}
+
+
+	100% {opacity: 100%;}
+
+}
+
+
+
+
+
+.box {width: 100%;
+      height: 100%;
+      
+        background-color: #46c5c0;
+      position: fixed;}
+
+.box1 {width: 200px; height: 45.3px;
+        background-color: yellow;
+        position: absolute;
+        left: 50%;
+transform: translateX(-50%);
+top: 65%; 
+animation-delay: 4s;
+animation-name: tyler;
+animation-duration : 2s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+position: absolute;}
+
+
+.make {width: 550px;
+       height: 183px;
+       
+left: 50%;
+transform: translateX(-50%);
+top: 36%; 
+
+
+animation-delay: 4s;
+animation-name: title;
+animation-duration : 2s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+position: absolute;}
+
+
+.make2 {width: 350px;
+       height: 31px;
+       
+left: 50%;
+transform: translateX(-50%);
+top: 48%; 
+
+
+animation-delay: 1s;
+animation-name: title2;
+animation-duration : 3s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+position: absolute;}
+
+
+
+
+.pix {width: 500px;
+       height: 710px;
+       
+left: 10%;
+transform: translateX(-50%);
+top: 23%; 
+
+animation-delay: 4s;
+animation-name: pix;
+animation-duration : 0.1s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+
+position: fixed;}
+
+
+.pix1 {width: 161px;
+       height: 400px;
+     
+left: 50%;
+transform: translateX(-50%);
+top: 14%; 
+
+animation-delay: 5s;
+animation-name: pix;
+animation-duration : 0.1s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+
+
+position: absolute;}
+
+
+.pix2 {width: 500px;
+       height: 763px;
+      
+left: 50%;
+transform: translateX(-50%);
+top: 14%; 
+
+
+animation-name: pix;
+animation-duration : 3s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+
+
+position: absolute;}
+
+
+
+
+
+
+.flower {width: 500px; height: 500px; 
+          bottom: 0px; left: 10px; float: left; display: inline-block;
+
+         position: absolute;
+
+         animation-name: flowers;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         animation-iteration-count: infinite;
+     }
+
+
+.flower1 {width: 320px; height: 320px;
+         right: 10px; float: right; 
+
+         position: absolute;
+
+         animation-name: flowerss;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         animation-iteration-count: infinite;}
+
+
+
+
+
